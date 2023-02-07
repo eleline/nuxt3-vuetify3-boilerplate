@@ -28,8 +28,8 @@ export const request =
     });
   };
 
-export const get = request(ApiMethod.GET);
-export const post = request(ApiMethod.POST);
-export const put = request(ApiMethod.PUT);
-export const patch = request(ApiMethod.PATCH);
-export const destroy = request(ApiMethod.DELETE);
+export const useFetchGet = request(ApiMethod.GET);
+export const useFetchPost = request(ApiMethod.POST);
+export const useFetchPut = request(ApiMethod.PUT);
+export const useFetchPatch = request(ApiMethod.PATCH);
+export const useFetchDestroy = request(ApiMethod.DELETE);
